@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"math/rand"
 	"sort"
 	"testing"
@@ -12,10 +13,12 @@ import (
 var _ = check.Suite(&sortTestSuite{})
 
 func TestT(t *testing.T) {
+	fmt.Println("test runing")
 	check.TestingT(t)
 }
 
 func prepare(src []int64) {
+	println("prepare")
 	rand.Seed(time.Now().Unix())
 	for i := range src {
 		src[i] = rand.Int63()
