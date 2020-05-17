@@ -180,6 +180,7 @@ You've been provided with a suite of unit tests in `tests/tests.rs`. Open it up
 and take a look.
 
 _Try to run the tests with `cargo test`._ What happens? Why?
+(Tips: Use USA lines to update , China line and Singapore very very slow)
 
 Your first task for this project is to make the tests _compile_. Fun!
 
